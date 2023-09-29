@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--6. Por último, vamos a crear un formulario para registrar un usuario que se vea de la
+siguiente manera:-->
+    <h1>Formulario para registrar un usuario</h1>
+    <h2>Registrar un usuario</h2>
+
+    <form action="/procesar_registro" method="POST">
+        <label for="nombre">Nombre del Usuario:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre aquí" required>
+    <br>
+        <label for="contrasena">Contraseña del Usuario:</label>
+        <br>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+    <br>
+        <label for="edad">Edad del Usuario:</label>
+        <br>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required>
+    <br>
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <br>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+    <br>
+        <label>Sexo:</label>
+        <br>
+        <input type="radio" id="hombre" name="sexo" value="hombre" required>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="otro" name="sexo" value="otro">
+        <label for="otro">Otro</label>
+    <br>
+        <label for="pais">País de Nacimiento:</label>
+        <br>
+        <select id="pais" name="pais" required>
+          <option value="" disabled selected>Seleccione un país</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Chile">Chile</option>
+          <option value="México">México</option>
+          
+        </select>
+    <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </form>
+</body>
+</html>

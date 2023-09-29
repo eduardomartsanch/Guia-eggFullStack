@@ -1,0 +1,73 @@
+body {
+  background-color: white;  
+}
+
+h1{
+    color: rgb(29, 104, 104);
+}
+
+.destacado1 {
+
+    color: #ee1414;
+}
+
+.destacado2 {
+
+    color: rgb(237, 178, 50);
+}
+h2{
+    font-size: 20px;
+    color: rgb(50, 56, 237);
+}
+.size{
+    font-size: 13px;
+}
+.color1 {
+    color: rgb(227, 21, 21);
+}
+.color2 {
+    color: rgb(6, 6, 234);
+}
+.especial1{
+    color: rgb(105, 31, 173);
+}
+
+table{
+    border: 1px solid;
+}
+  
+  /* Estilo para las celdas encabezado especiales */
+  
+  th{
+    border:1px solid;
+  }
+  th.especial{
+    border:1px solid black;
+    color: rgb(237, 178, 50);
+  }
+  td{
+    border: 1px solid;
+  }
+  .color3{
+    border: 1px solid black;
+    color: rgb(17, 153, 44);
+  }
+  .color4{
+    border: 1px solid black;
+    color: rgb(232, 27, 13);
+  }
+  .color5{
+    font-size: 13px;
+    color: rgba(129, 185, 107, 0.992);
+
+  }
+  .color6{
+    color: rgb(243, 7, 208);
+  }
+  .color7{
+    color: rgb(17, 153, 44);
+  }
+
+  caption{
+      color: rgba(255, 255, 255, 0.942);
+  }

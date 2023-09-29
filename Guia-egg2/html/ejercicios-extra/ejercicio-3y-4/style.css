@@ -1,0 +1,82 @@
+body {
+  margin: 0em;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #2a1318;
+}
+
+.logo-img{
+  width: 40x;
+  height: 40px;
+  border-radius: 50%;
+}
+
+h1, h2, h4, h5 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #e9d201;
+}
+
+
+
+.cover {
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/45ae7ba9-56b0-4280-9dfc-afa57c656ff8%2Frsz_cafe_feliz.png?v=1625955831640);
+  color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  background-color:rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+.cover-small{
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1pxmrgba(0, 0, 0, 0.6);
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+.card-text {
+  min-height:10rem;
+}
+
+.product-stripe{
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.stripe-container {
+  display:flex;
+}
+
+.stripe-container .card {
+  width: 300px;
+  flex-shrink:0;
+  margin-right:1rem;
+}
+
+.responsive-iframe {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text{
+  color:#e9d201;
+}
